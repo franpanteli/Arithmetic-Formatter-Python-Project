@@ -22,7 +22,7 @@ def arithmetic_arranger(problems, answer=False):
     first_line, second_line, third_line, fourth_line = [], [], [], []
 
 """
-    Iterating through problems:
+    Iterating through problems to implement error handling:
         -> The first argument to the function is an array of operations 
         -> Those operations all follow the same basic form <- Some number, ± some other number 
         -> We are iterating through each of those operations listed in the first argument of the function <- This is why 
@@ -35,7 +35,7 @@ def arithmetic_arranger(problems, answer=False):
         -> We have to implement an error handler for each condition that we want the function input to satisfy
         -> Another condition that we are checking in this block is that the operation only contains digits <- In the 
             alternative case, returning another error message
-        -> And finally that the number of digits in the numbers which we are operating on isn't greater than 4
+        -> And finally, that the number of digits in the numbers being operating on isn't greater than 4
 """
 
     for problem in problems:
