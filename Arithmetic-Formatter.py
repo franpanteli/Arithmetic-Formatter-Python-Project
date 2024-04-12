@@ -27,8 +27,8 @@ def arithmetic_arranger(problems, answer=False):
         -> Those operations all follow the same basic form <- Some number, ± some other number 
         -> We are iterating through each of those operations listed in the first argument of the function <- This is why 
             we are using a for loop (each of those operations in the list is a `problem`)
-        -> And each of those is in that same basic form <- or we want to make sure that it is 
-        -> The basic form is number ± other number 
+        -> And each of those is in that same basic form <- Or we want to make sure that it is 
+        -> The basic form is 'number ± other number' 
         -> If this isn't the case, we want to return error messages
         -> So we need the operand to be a ±, and if this isn't we return an error message
         -> This is us implementing the error handling with the question asked for (refer to the project task notes)
