@@ -61,19 +61,19 @@ def arithmetic_arranger(problems, answer=False):
             fourth_line.append(result.rjust(width))
 
 """
-    -> The function can have two arguments 
+    -> The function can take two arguments 
     -> The first is a list, which contains the operators we are rearranging - and the second is an optional boolean (`argument`)
-    -> This determines if we want to return the result of these operations or not 
+        -> `argument` determines if we want to return the result of these operations or not 
     -> The first line in this block constructs the result of the function which we want to return if its second argument doesn't
         exist 
     -> In which case, we format the different lines of the function output: 
         -> The first arguement of the function follows a certain form 
-        -> First number, operand (±), second number
-        -> The previous block of code stores these three values in different variables 
-        -> We are taking these and formatting them into a vertically stacked output <- This is stored in the `arranged_problems` 
-            variable 
-        -> We add spaces, then the first variable, then a new line, then etc - to build out the function output in the syntax defined 
-            by the project question
+            -> First number, operand (±), second number
+            -> The previous block of code stores these three values in different variables 
+            -> We are taking these and formatting them into a vertically stacked output <- This is stored in the `arranged_problems` 
+                variable 
+        -> We add spaces, then the first variable, then a new line, then etc - to build the function output in the syntax defined by 
+            the project question
         -> One of these elements is the '---' dashes under the operation <- The number of these dashes was determined in the previous block 
             of code - depending on the number of digits we are working with for a given case
     -> Then if the second argument to the function is True (`argument`), we want to add a fourth line to its output - and we want the 
