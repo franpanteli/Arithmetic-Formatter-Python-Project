@@ -63,11 +63,11 @@ def arithmetic_arranger(problems, answer=False):
 """
     -> The function can take two arguments 
     -> The first is a list, which contains the operators we are rearranging - and the second is an optional boolean (`argument`)
-        -> `argument` determines if we want to return the result of these operations or not 
+        -> `argument` determines if we want to return the result of these operations, or not 
     -> The first line in this block constructs the result of the function which we want to return if its second argument doesn't
         exist 
     -> In which case, we format the different lines of the function output: 
-        -> The first arguement of the function follows a certain form 
+        -> The first argument of the function follows a certain form 
             -> First number, operand (±), second number
             -> The previous block of code stores these three values in different variables 
             -> We are taking these and formatting them into a vertically stacked output <- This is stored in the `arranged_problems` 
