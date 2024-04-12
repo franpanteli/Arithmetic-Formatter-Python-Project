@@ -24,8 +24,7 @@ def arithmetic_arranger(problems, answer=False):
 """
     Iterating through problems:
         -> The first argument to the function is an array of operations 
-        -> Those operations all follow the same basic form 
-        -> Some number, ± some other number 
+        -> Those operations all follow the same basic form <- some number, ± some other number 
         -> We are iterating through each of those operations listed in the first argument of the function <- This is why 
             we are using a for loop (each of those operations in the list is a `problem`)
         -> And each of those is in that same basic form <- or we want to make sure that it is 
