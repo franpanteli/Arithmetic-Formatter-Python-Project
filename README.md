@@ -7,5 +7,5 @@ Error handling was implemented for this, to ensure that a series of conditions w
 
 ### To Clone This Repository
 ```
-git clone https://github.com/franpanteli/Arithmetic-Formatter-Python-Project.git 
+git clone https://github.com/franpanteli/Arithmetic-Formatter-Python-Project.git
 ```
