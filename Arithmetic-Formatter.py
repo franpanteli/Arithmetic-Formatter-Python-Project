@@ -1,30 +1,30 @@
 """
-    -> We are defining a Python function called `arithmetic_arranger`
-    -> The first argument of this function is a list of strings with operations 
-    -> The second arguement of this function is an optional boolean which instructs it to return the result of these 
+    -> We are defining a Python function, called `arithmetic_arranger`
+    -> The first argument of this function is a list of strings, with operations 
+    -> The second arguement of this function is an optional boolean, which instructs it to return the result of these 
         operations 
-    -> These are entered into the first argument of the function in a list 
-    -> We want the function to return them displayed in a vertically stacked display 
+    -> These are entered into the first argument of the function, in a list 
+    -> We want the function to return them in a vertically stacked display 
 """
 
 def arithmetic_arranger(problems, answer=False):
 
 """
     -> The first argument of the function is a list of the different operations which we want to stack 
-    -> If we have too many operations (more than 4 of them) for this argument, then we want to return an error message
-    -> This section of the function checks the number of these arguments, to see if we have too many of them or not
+    -> If we have too many operations (more than 4 of them) for this first argument, then we want to return an error message
+    -> This section of the function checks the number of these arguments, to see if we have too many of them
 """
 
     if len(problems) > 5:
         return "Error: Too many problems."
 
-# We are then defining four empty arrays, to store the operations of the first argument in the function in
+# We then define four empty arrays, to store the operations of the first argument in the function in
     first_line, second_line, third_line, fourth_line = [], [], [], []
 
 """
     Iterating through problems:
         -> The first argument to the function is an array of operations 
-        -> Those oeprations all follow the same basic form 
+        -> Those operations all follow the same basic form 
         -> Some number, ± some other number 
         -> We are iterating through each of those operations listed in the first argument of the function <- This is why 
             we are using a for loop (each of those operations in the list is a `problem`)
