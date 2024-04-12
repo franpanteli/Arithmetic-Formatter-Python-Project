@@ -32,7 +32,7 @@ def arithmetic_arranger(problems, answer=False):
         -> If this isn't the case, we want to return an error message
         -> So we need the operand to be a ±, and if this isn't we return an error message
         -> This is us implementing the error handling which the question asked for (refer to the project task notes for this)
-        -> Each condition we want to check that the function input satisfies requires its own error handling 
+        -> We have to implement error handling for each condition that we want to check the function input satisfies
         -> Another condition that we are checking in this block is that the operation only contains digits <- In the 
             alternative case, returning another error message
         -> And finally that the number of digits in the numbers which we are operating on isn't greater than 4
