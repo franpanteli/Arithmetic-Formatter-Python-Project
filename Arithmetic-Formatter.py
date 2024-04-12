@@ -72,10 +72,10 @@ def arithmetic_arranger(problems, answer=False):
             -> The previous block of code stores these three values in different variables 
             -> We are taking these and formatting them into a vertically stacked output <- This is stored in the `arranged_problems` 
                 variable 
-        -> We add spaces, then the first variable, then a new line, then etc - to build the function output in the syntax defined by 
+        -> We add spaces, then the first variable, then a new line, then etc - to build the function output, in the syntax defined by 
             the project question
         -> One of these elements is the '---' dashes under the operation <- The number of these dashes was determined in the previous block 
-            of code - depending on the number of digits we are working with for a given case
+            of code - depending on the number of digits being working with for a given case
     -> Then if the second argument to the function is True (`argument`), we want to add a fourth line to its output - and we want the 
         content of that line to contain the results of the operation
         -> This is what the if block in this section of code does
