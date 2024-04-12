@@ -75,7 +75,7 @@ def arithmetic_arranger(problems, answer=False):
         -> We add spaces, then the first variable, then a new line, then etc - to build the function output, in the syntax defined by 
             the project question
         -> One of these elements is the '---' dashes under the operation <- The number of these dashes was determined in the previous block 
-            of code - depending on the number of digits being working with for a given case
+            of code - depending on the number of digits being worked with for a given case
     -> Then if the second argument to the function is True (`argument`), we want to add a fourth line to its output - and we want the 
         content of that line to contain the results of the operation
         -> This is what the if block in this section of code does
