@@ -60,21 +60,31 @@ def arithmetic_arranger(problems, answer=False):
             result = str(eval(problem))
             fourth_line.append(result.rjust(width))
 
-
-
-
-
+"""
+    -> The function can have two arguments 
+    -> The first is a list which contains the operators we are rearranging and the second is an optional boolean (`argument`), 
+        that determines if we want the result of these operations or not 
+    -> The first line in this next section of code constructs the result of the function which we want to return if its second 
+        argument doesn't exist 
+    -> In which case, we format the different lines of the function output 
+        -> The first arguement of the function follows a certain form 
+        -> First number, operand (±), second number
+        -> The previous block of code stored these three values in different variables 
+        -> We are taking these and formatting them into a vertically stacked output <- This is stored in the `arranged_problems` 
+            variable 
+        -> We add spaces, then the first variable, then a new line, then etc - to build out the function output 
+        -> One of these elements is the '---' dashes under the operation <- The number of these was determined in the previous block 
+            of code 
+    -> Then if the second argument to the function is True (`argument`), we want to add a fourth line to its output - and we want the 
+        content of that line to contain the results of the operation
+        -> This is what the if block in this section of code does
+        -> Printing this out onto its own line, by literally joining a new line, four spaces and the value of the operation 
+        -> Provided that the second argument to the function is True <- This argument is optional 
+    -> We are storing the formatted operation in a variable called `arranged_problems`
+    -> This is what we then return <- As a string 
+"""
 
     arranged_problems = "    ".join(first_line) + "\n" + "    ".join(second_line) + "\n" + "    ".join(third_line)
-
-
-
-
     if answer:
-
-
-
-
-
         arranged_problems += "\n" + "    ".join(fourth_line)
     return arranged_problems
