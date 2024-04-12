@@ -63,9 +63,9 @@ def arithmetic_arranger(problems, answer=False):
 """
     -> The function can have two arguments 
     -> The first is a list which contains the operators we are rearranging and the second is an optional boolean (`argument`), 
-        that determines if we want the result of these operations or not 
-    -> The first line in this next section of code constructs the result of the function which we want to return if its second 
-        argument doesn't exist 
+        to determine if we want the result of these operations or not 
+    -> The first line in this block constructs the result of the function which we want to return if its second argument doesn't
+        exist 
     -> In which case, we format the different lines of the function output 
         -> The first arguement of the function follows a certain form 
         -> First number, operand (±), second number
