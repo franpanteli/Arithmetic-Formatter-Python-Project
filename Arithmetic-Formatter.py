@@ -29,9 +29,9 @@ def arithmetic_arranger(problems, answer=False):
             we are using a for loop (each of those operations in the list is a `problem`)
         -> And each of those is in that same basic form <- Or we want to make sure that it is 
         -> The basic form is 'number ± other number' 
-        -> If this isn't the case, we want to return error messages
+        -> If this isn't the case, we want to return an error message
         -> So we need the operand to be a ±, and if this isn't we return an error message
-        -> This is us implementing the error handling with the question asked for (refer to the project task notes)
+        -> This is us implementing the error handling which the question asked for (refer to the project task notes)
         -> Each condition we want to check that the function input satisfies requires its own error handling 
         -> Another condition that we are checking in this block is that the operation only contains digits <- In the 
             alternative case, returning another error message
